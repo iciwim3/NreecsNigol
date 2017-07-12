@@ -12,6 +12,7 @@
 		88D5E5AC1F15939F00EE9B57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88D5E5AA1F15939F00EE9B57 /* Main.storyboard */; };
 		88D5E5AE1F15939F00EE9B57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88D5E5AD1F15939F00EE9B57 /* Assets.xcassets */; };
 		88D5E5B11F15939F00EE9B57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88D5E5AF1F15939F00EE9B57 /* LaunchScreen.storyboard */; };
+		88D5E5B91F1598F900EE9B57 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D5E5B81F1598F900EE9B57 /* LoginTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		88D5E5AD1F15939F00EE9B57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88D5E5B01F15939F00EE9B57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88D5E5B21F15939F00EE9B57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88D5E5B81F1598F900EE9B57 /* LoginTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginTextField.swift; path = ../LoginTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				88D5E5A61F15939F00EE9B57 /* AppDelegate.swift */,
 				88D5E5A81F15939F00EE9B57 /* ViewController.swift */,
+				88D5E5B81F1598F900EE9B57 /* LoginTextField.swift */,
 				88D5E5AA1F15939F00EE9B57 /* Main.storyboard */,
 				88D5E5AD1F15939F00EE9B57 /* Assets.xcassets */,
 				88D5E5AF1F15939F00EE9B57 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D5E5B91F1598F900EE9B57 /* LoginTextField.swift in Sources */,
 				88D5E5A91F15939F00EE9B57 /* ViewController.swift in Sources */,
 				88D5E5A71F15939F00EE9B57 /* AppDelegate.swift in Sources */,
 			);
